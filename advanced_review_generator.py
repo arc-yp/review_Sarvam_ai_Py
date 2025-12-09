@@ -6,7 +6,7 @@ import random
 
 # Sarvam AI API Configuration
 # IMPORTANT: You MUST set a valid API key to use this script
-API_KEY = os.getenv("SARVAM_API_KEY", "sk_jvluf7sh_tiHFPEmIQLdSVtNU3KKe49RN")
+API_KEY = os.getenv("SARVAM_API_KEY", "")  # Fetch from environment variable
 API_ENDPOINT = "https://api.sarvam.ai/v1/chat/completions"
 
 # TO GET A VALID API KEY:
@@ -53,11 +53,11 @@ class ReviewGenerator:
         """Generate random, unique character length ranges for variety"""
         # Different length patterns for variety
         length_options = [
-            (200, 250),  # Short
-            (250, 300),  # Medium-Short
-            (300, 350),  # Medium-Long
-            (220, 280),  # Varied
-            (260, 320),  # Varied
+            (20, 50),  # Short
+            (50, 100),  # Medium-Short
+            (100, 200),  # Medium-Long
+            (200, 250),  # Varied
+            (260, 300),  # Varied
         ]
         return random.choice(length_options)
     

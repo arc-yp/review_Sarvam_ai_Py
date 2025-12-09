@@ -1,256 +1,239 @@
 [
   {
-    "timestamp": "2025-12-09 18:16:19",
+    "timestamp": "2025-12-09 20:00:58",
     "business_name": "Integrity World",
     "business_type": "Education",
     "category": "AI Communication Coach, Bhavtik Sir, best ai coaching, ai communication skill, Bhavik kumar",
     "star_rating": 5,
     "language": "English",
     "use_case": "Customer review",
-    "review": "I was nervous about joining any coaching program until I found Integrity World. Bhavtik Sir's AI communication coaching feels different. He actually listens and gives clear advice that works. My confidence has grown so much since enrolling. The personal touch from Bhavik Kumar and his team made all the difference.",
-    "char_count": 315,
+    "review": "The first thing that stood out was how warm and approachable Bhavtik Sir seemed during our initial session with Integrity World. His ability to break down complex AI communication concepts into simple steps made learning effortless. I was initially nervous about mastering these skills but his calm guidance helped me stay confident.",
+    "char_count": 333,
     "token_usage": {
-      "completion_tokens": 80,
-      "prompt_tokens": 527,
-      "total_tokens": 607
+      "completion_tokens": 95,
+      "prompt_tokens": 599,
+      "total_tokens": 694
     },
     "method": "api"
   },
   {
-    "timestamp": "2025-12-09 18:16:43",
+    "timestamp": "2025-12-09 20:01:06",
     "business_name": "Integrity World",
     "business_type": "Education",
     "category": "AI Communication Coach, Bhavtik Sir, best ai coaching, ai communication skill, Bhavik kumar",
     "star_rating": 5,
     "language": "English",
     "use_case": "Customer review",
-    "review": "I was nervous about joining any coaching program until I found Integrity World. Bhavtik Sir's AI communication coaching feels different. He actually listens and gives clear advice that works. My confidence has grown so much since enrolling. The personal touch from Bhavik Kumar and his team made all the difference.",
-    "char_count": 315,
+    "review": "The moment I walked into Integrity World I knew I was in good hands. Bhavtik Sir has this way of making even complex ideas feel simple and approachable. The AI communication coaching felt more like a friendly chat than formal training.",
+    "char_count": 235,
     "token_usage": {
-      "completion_tokens": 80,
-      "prompt_tokens": 527,
-      "total_tokens": 607
+      "completion_tokens": 100,
+      "prompt_tokens": 615,
+      "total_tokens": 715
     },
     "method": "api"
   },
   {
-    "timestamp": "2025-12-09 18:17:05",
+    "timestamp": "2025-12-09 20:01:10",
     "business_name": "Integrity World",
     "business_type": "Education",
-    "category": " best ai coaching, ai communication skill, Bhavik kumar",
+    "category": "AI Communication Coach, Bhavtik Sir, best ai coaching, ai communication skill, Bhavik kumar",
     "star_rating": 5,
     "language": "English",
     "use_case": "Customer review",
-    "review": "I was skeptical at first but Integrity World completely won me over. The way Bhavik Kumar breaks down complex AI concepts into simple pieces made learning feel effortless. His coaching isn’t just about theory – he actually cares how you communicate practically. I still remember how he corrected my approach in a project gently but clearly.",
-    "char_count": 340,
+    "review": "The first time I spoke to Bhavtik Sir at Integrity World I knew I was in safe hands",
+    "char_count": 83,
     "token_usage": {
-      "completion_tokens": 100,
-      "prompt_tokens": 519,
-      "total_tokens": 619
+      "completion_tokens": 22,
+      "prompt_tokens": 629,
+      "total_tokens": 651
     },
     "method": "api"
   },
   {
-    "timestamp": "2025-12-09 18:17:13",
+    "timestamp": "2025-12-09 20:01:16",
     "business_name": "Integrity World",
     "business_type": "Education",
-    "category": " best ai coaching, ai communication skill, Bhavik kumar",
+    "category": "AI Communication Coach, Bhavtik Sir, best ai coaching, ai communication skill, Bhavik kumar",
     "star_rating": 5,
-    "language": "Gujarati Romanized",
+    "language": "English",
     "use_case": "Customer review",
-    "review": "Integrity World ma bhanvani sharuat kari tyare mane khabar padi ke aa j ek game-changer chhe. Bhavik Kumar na approach thi AI coaching ane communication skills samajavani rit badli gayi. Real-life examples ane practical strategies na kaarne concepts implement karva easy thai gaya.",
-    "char_count": 281,
+    "review": "The moment I started working with Bhavtik Sir at Integrity World my confidence grew. His AI communication coaching felt tailor-made for my needs focusing on real-life scenarios that actually made a difference. The personalized feedback was spot on helping me improve fast.",
+    "char_count": 272,
     "token_usage": {
-      "completion_tokens": 100,
-      "prompt_tokens": 610,
-      "total_tokens": 710
+      "completion_tokens": 68,
+      "prompt_tokens": 648,
+      "total_tokens": 716
     },
     "method": "api"
   },
   {
-    "timestamp": "2025-12-09 18:17:40",
+    "timestamp": "2025-12-09 20:01:21",
     "business_name": "Integrity World",
     "business_type": "Education",
-    "category": " best ai coaching, ai communication skill, Bhavik kumar",
+    "category": "AI Communication Coach, Bhavtik Sir, best ai coaching, ai communication skill, Bhavik kumar",
     "star_rating": 5,
-    "language": "Gujarati Romanized",
+    "language": "English",
     "use_case": "Customer review",
-    "review": "Integrity World ma bhanvani sharuat kari tyare mane khabar padi ke aa j jagya chhe jyaan bhavik kumar ni techniques thi communication skills ne sajivan karvama aave chhe. AI coaching sessions mane confident banavya kare chhe ane daily interactions ma pan apply kari shakay etle practical laage chhe.",
-    "char_count": 299,
+    "review": "I was nervous about improving my AI communication skills but then found Bhavtik Sir at Integrity World. His approach made complex concepts feel easy to grasp. The personalized feedback transformed how I interact with AI tools at work. Feel confident now!",
+    "char_count": 254,
+    "token_usage": {
+      "completion_tokens": 49,
+      "prompt_tokens": 667,
+      "total_tokens": 716
+    },
+    "method": "api"
+  },
+  {
+    "timestamp": "2025-12-09 20:01:25",
+    "business_name": "Integrity World",
+    "business_type": "Education",
+    "category": "AI Communication Coach, Bhavtik Sir, best ai coaching, ai communication skill, Bhavik kumar",
+    "star_rating": 5,
+    "language": "English",
+    "use_case": "Customer review",
+    "review": "I was really struggling with AI communication skills until I found Integrity World. The coach Bhavik Sir made everything feel so simple and friendly. He listened carefully to my worries about sounding robotic online and showed me practical ways to sound more natural.",
+    "char_count": 267,
+    "token_usage": {
+      "completion_tokens": 95,
+      "prompt_tokens": 682,
+      "total_tokens": 777
+    },
+    "method": "api"
+  },
+  {
+    "timestamp": "2025-12-09 20:01:34",
+    "business_name": "Integrity World",
+    "business_type": "Education",
+    "category": "AI Communication Coach, Bhavtik Sir, best ai coaching, ai communication skill, Bhavik kumar",
+    "star_rating": 5,
+    "language": "English",
+    "use_case": "Customer review",
+    "review": "Unlike other coaching programs I’ve tried Integrity World’s approach feels personal and genuine. Bhavtik Sir made complex communication concepts simple to grasp with relatable examples. The emphasis on practical application helped me improve my AI interaction skills faster than expected.",
+    "char_count": 288,
     "token_usage": {
       "completion_tokens": 82,
-      "prompt_tokens": 610,
-      "total_tokens": 692
+      "prompt_tokens": 679,
+      "total_tokens": 761
     },
     "method": "api"
   },
   {
-    "timestamp": "2025-12-09 18:18:00",
-    "business_name": "Integrity World",
-    "business_type": "Education",
-    "category": " best ai coaching, ai communication skill, Bhavik kumar",
-    "star_rating": 5,
-    "language": "Gujarati Romanized",
-    "use_case": "Customer review",
-    "review": "Integrity World ma bhanvani sharuat kari tyare mane khabar padi ke aa j ek game-changer chhe. Bhavik Kumar na approach thi AI coaching ane communication skills samajavani rit badli gayi. Real-life examples ane practical strategies na kaarne concepts implement karva easy thai gaya.",
-    "char_count": 281,
-    "token_usage": {
-      "completion_tokens": 100,
-      "prompt_tokens": 610,
-      "total_tokens": 710
-    },
-    "method": "api"
-  },
-  {
-    "timestamp": "2025-12-09 18:18:08",
-    "business_name": "Integrity World",
-    "business_type": "Education",
-    "category": " best ai coaching, ai communication skill, Bhavik kumar",
-    "star_rating": 5,
-    "language": "Hindi Romanized",
-    "use_case": "Customer review",
-    "review": "Integrity World ne mere communication skills ko badalne mein asli madad ki hai. Bhavik Kumar ji ne AI coaching ke zariye mere confidence ko pakka banana sikhaya. Ab meetings aur presentations mein baat karte waqt lagta hai jaise pataa ho sab pehle se hi mujhe samajh gaya ho.",
-    "char_count": 275,
-    "token_usage": {
-      "completion_tokens": 100,
-      "prompt_tokens": 469,
-      "total_tokens": 569
-    },
-    "method": "api"
-  },
-  {
-    "timestamp": "2025-12-09 18:18:14",
-    "business_name": "Integrity World",
-    "business_type": "Education",
-    "category": " best ai coaching, ai communication skill, Bhavik kumar",
-    "star_rating": 5,
-    "language": "Gujarati Romanized",
-    "use_case": "Customer review",
-    "review": "Integrity World ma bhanvani sharuat kari tyare mane khabar padi ke aa j ek game-changer chhe. Bhavik Kumar na sessions ma AI coaching ane communication skills ne levano approach simple pan deep chhe. Ek vaar mane presentation skills sikhva ma struggle karvu padyu hatu ane eno patience ane practical tips thi mane confidence mali gayo.",
-    "char_count": 335,
-    "token_usage": {
-      "completion_tokens": 100,
-      "prompt_tokens": 610,
-      "total_tokens": 710
-    },
-    "method": "api"
-  },
-  {
-    "timestamp": "2025-12-09 18:18:30",
-    "business_name": "Integrity World",
-    "business_type": "Education",
-    "category": " best ai coaching, ai communication skill, Bhavik kumar",
-    "star_rating": 5,
-    "language": "English",
-    "use_case": "Customer review",
-    "review": "I was skeptical at first but Integrity World completely won me over. The way Bhavik Kumar breaks down complex AI concepts into simple pieces made learning feel effortless. His coaching isn’t just about theory – he actually cares how you communicate practically. I still remember how he corrected my approach in a project gently but clearly.",
-    "char_count": 340,
-    "token_usage": {
-      "completion_tokens": 100,
-      "prompt_tokens": 519,
-      "total_tokens": 619
-    },
-    "method": "api"
-  },
-  {
-    "timestamp": "2025-12-09 18:18:40",
-    "business_name": "Integrity World",
-    "business_type": "Education",
-    "category": " best ai coaching, ai communication skill, Bhavik kumar",
-    "star_rating": 5,
-    "language": "English",
-    "use_case": "Customer review",
-    "review": "I was skeptical at first but Integrity World completely won me over. The way Bhavik Kumar breaks down complex AI concepts into simple pieces made learning feel effortless. His coaching isn’t just about theory—he actually cares how you communicate and keeps giving practical tips to improve.",
-    "char_count": 290,
-    "token_usage": {
-      "completion_tokens": 100,
-      "prompt_tokens": 519,
-      "total_tokens": 619
-    },
-    "method": "api"
-  },
-  {
-    "timestamp": "2025-12-09 18:32:47",
+    "timestamp": "2025-12-09 20:01:40",
     "business_name": "Test Business",
     "business_type": "shop",
     "category": "Test",
     "star_rating": 5,
     "language": "English",
     "use_case": "Customer review",
-    "review": "I was nervous about trying Test Business because I’ve been burned before. But from the moment I walked in staff treated me like family. My specific need was handled with patience something other places rushed through. The final result felt thoughtful and exactly what I wanted. Their attention to detail made all the difference.",
-    "char_count": 328,
+    "review": "I was worried about trying something new but took a chance with Test Business. They made me feel comfortable right away. They listened carefully to what I wanted and gave me honest advice. The whole process was smooth and stress-free. Now I’m really happy with how it all worked out.",
+    "char_count": 283,
     "token_usage": {
-      "completion_tokens": 61,
-      "prompt_tokens": 665,
-      "total_tokens": 726
+      "completion_tokens": 58,
+      "prompt_tokens": 656,
+      "total_tokens": 714
     },
     "method": "api"
   },
   {
-    "timestamp": "2025-12-09 18:35:39",
+    "timestamp": "2025-12-09 20:02:00",
     "business_name": "Integrity World",
     "business_type": "Education",
-    "category": "AI Communication Coach, Bhavtik Sir",
+    "category": "AI Communication Coach, Bhavtik Sir, best ai coaching, ai communication skill, Bhavik kumar",
     "star_rating": 5,
-    "language": "English",
+    "language": "Gujarati Romanized",
     "use_case": "Customer review",
-    "review": "A friend recommended Integrity World for AI communication coaching and I decided to give it a try. I was unsure at first but Bhavtik Sir made me feel comfortable right away. He listened carefully to my concerns and gave practical tips that actually worked. The sessions felt more like friendly chats than lessons which made learning easier.",
-    "char_count": 340,
+    "review": "Integrity World ma Bhavtik Sir na AI Communication Coach session ma javu mane ekdam reflex thi jeevya ne badlai nakhyu. Sharuat ma thodi hesitant hati communication skills ni practice karva babate pan emni guidance thi mane confidence malto gayo. Real-life examples ane interactive exercises thi samajvani process engaging ane effective bani.",
+    "char_count": 342,
     "token_usage": {
       "completion_tokens": 100,
-      "prompt_tokens": 669,
-      "total_tokens": 769
+      "prompt_tokens": 766,
+      "total_tokens": 866
     },
     "method": "api"
   },
   {
-    "timestamp": "2025-12-09 18:35:53",
+    "timestamp": "2025-12-09 20:02:09",
     "business_name": "Integrity World",
     "business_type": "Education",
-    "category": "AI Communication Coach, Bhavtik Sir",
+    "category": "AI Communication Coach, Bhavtik Sir, best ai coaching, ai communication skill, Bhavik kumar",
     "star_rating": 5,
-    "language": "English",
+    "language": "Gujarati Romanized",
     "use_case": "Customer review",
-    "review": "Compared to other coaching programs I’ve tried before Integrity World feels truly different. The way Bhavtik Sir breaks things down makes complex ideas feel simple. My confidence has grown so much since joining.",
-    "char_count": 211,
+    "review": "Bija coaching programs thi opposite Integrity World ma Bhavtik Sir ni teaching style mane khub gami. Sauthi vadhare saras vaat e hati ke AI communication skills ne simple rite samjaavvama aavya hata. Ek vaar najar na laagta bhava thi mane confidence vadhyo ane colleagues sathe na baatchit ma sudharo thayo.",
+    "char_count": 307,
     "token_usage": {
       "completion_tokens": 100,
-      "prompt_tokens": 668,
-      "total_tokens": 768
+      "prompt_tokens": 768,
+      "total_tokens": 868
     },
     "method": "api"
   },
   {
-    "timestamp": "2025-12-09 18:36:00",
+    "timestamp": "2025-12-09 20:02:16",
     "business_name": "Integrity World",
     "business_type": "Education",
-    "category": "AI Communication Coach, Bhavtik Sir",
+    "category": "AI Communication Coach, Bhavtik Sir, best ai coaching, ai communication skill, Bhavik kumar",
     "star_rating": 5,
-    "language": "English",
+    "language": "Gujarati Romanized",
     "use_case": "Customer review",
-    "review": "A colleague raved about Integrity World's communication coaching so much that I had to try it myself. The moment I walked in Bhavtik Sir made me feel at ease his warmth was genuine. He listened carefully to what I struggled with public speaking and tailored his lessons perfectly.",
-    "char_count": 280,
+    "review": "Integrity World ma Bhavtik Sir na AI Communication Coach session ma javanu mane khub game chhe. Mane laagyu ke e loko bija coaching programs thi alag chhe ane mane lagashe ke e loko mara mate banavela chhe. Tone set karine ane pachhi practice karva thi mane mari flaws improve karvama help mali.",
+    "char_count": 295,
     "token_usage": {
       "completion_tokens": 100,
-      "prompt_tokens": 664,
-      "total_tokens": 764
+      "prompt_tokens": 769,
+      "total_tokens": 869
     },
     "method": "api"
   },
   {
-    "timestamp": "2025-12-09 19:25:19",
-    "business_name": "Test Business",
-    "business_type": "shop",
-    "category": "Test",
+    "timestamp": "2025-12-09 20:02:24",
+    "business_name": "Integrity World",
+    "business_type": "Education",
+    "category": "AI Communication Coach, Bhavtik Sir, best ai coaching, ai communication skill, Bhavik kumar",
     "star_rating": 5,
-    "language": "English",
+    "language": "Gujarati Romanized",
     "use_case": "Customer review",
-    "review": "There’s something special about Test Business that made me feel right at home from the moment I walked in. The staff greeting me by name instantly put me at ease. I came in needing help with something specific and they took extra time to explain everything clearly without rushing me.",
-    "char_count": 284,
+    "review": "Mare Integrity World ma Bhavtik Sir na AI communication coaching program ma join karyu ane mane man thayo ke aa ek game-changer chhe. Men digital world ma better communicate karva mangto hato ane aa sessions thi mane confidence ane practical skills banne mali gaya.",
+    "char_count": 265,
     "token_usage": {
       "completion_tokens": 100,
-      "prompt_tokens": 654,
-      "total_tokens": 754
+      "prompt_tokens": 771,
+      "total_tokens": 871
+    },
+    "method": "api"
+  },
+  {
+    "timestamp": "2025-12-09 20:02:29",
+    "business_name": "Integrity World",
+    "business_type": "Education",
+    "category": "AI Communication Coach, Bhavtik Sir, best ai coaching, ai communication skill, Bhavik kumar",
+    "star_rating": 5,
+    "language": "Gujarati Romanized",
+    "use_case": "Customer review",
+    "review": "Expectations thi pan vadhare saru thayu! Bhavtik Sir ni AI communication techniques mane social media engagement mate confidence banavvama madad kari. Ghar ma practice sessions ane personalized feedback thi me kai badhu change thai gayo. Haal ma mane}$,",
+    "char_count": 253,
+    "token_usage": {
+      "completion_tokens": 60,
+      "prompt_tokens": 776,
+      "total_tokens": 836
+    },
+    "method": "api"
+  },
+  {
+    "timestamp": "2025-12-09 20:02:38",
+    "business_name": "Integrity World",
+    "business_type": "Education",
+    "category": "AI Communication Coach, Bhavtik Sir, best ai coaching, ai communication skill, Bhavik kumar",
+    "star_rating": 5,
+    "language": "Gujarati Romanized",
+    "use_case": "Customer review",
+    "review": "Bhavtik Sir na AI communication coaching ma join karya pachhi mane khabar padi ke aa maro Saras decision hato. Sharuat ma mane laagtu hatu ke roj practice karvano routine thodo tedious raheshe pan emna guidance thi badhu badlai gayu.",
+    "char_count": 233,
+    "token_usage": {
+      "completion_tokens": 66,
+      "prompt_tokens": 780,
+      "total_tokens": 846
     },
     "method": "api"
   }
