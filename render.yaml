@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: ai-review-generator
+    env: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: gunicorn app:app
+    envVars:
+      - key: SARVAM_API_KEY
+        sync: false
+      - key: PYTHON_VERSION
+        value: 3.11.0

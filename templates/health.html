@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>API Health Check - AI Review Generator</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        min-height: 100vh;
+        padding: 20px;
+      }
+
+      .container {
+        max-width: 900px;
+        margin: 0 auto;
+      }
+
+      .header {
+        text-align: center;
+        color: white;
+        margin-bottom: 30px;
+      }
+
+      .header h1 {
+        font-size: 2.5em;
+        margin-bottom: 10px;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+      }
+
+      .nav-link {
+        display: inline-block;
+        color: white;
+        text-decoration: none;
+        background: rgba(255, 255, 255, 0.2);
+        padding: 10px 20px;
+        border-radius: 20px;
+        margin: 10px 5px;
+        transition: background 0.3s;
+      }
+
+      .nav-link:hover {
+        background: rgba(255, 255, 255, 0.3);
+      }
+
+      .card {
+        background: white;
+        border-radius: 15px;
+        padding: 30px;
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+        margin-bottom: 20px;
+      }
+
+      .status-box {
+        text-align: center;
+        padding: 40px;
+        border-radius: 10px;
+        margin-bottom: 30px;
+      }
+
+      .status-box.checking {
+        background: #fff3cd;
+        border: 2px solid #ffc107;
+      }
+
+      .status-box.healthy {
+        background: #d4edda;
+        border: 2px solid #28a745;
+      }
+
+      .status-box.error {
+        background: #f8d7da;
+        border: 2px solid #dc3545;
+      }
+
+      .status-icon {
+        font-size: 4em;
+        margin-bottom: 15px;
+      }
+
+      .status-text {
+        font-size: 1.5em;
+        font-weight: 600;
+        margin-bottom: 10px;
+      }
+
+      .status-details {
+        font-size: 1em;
+        color: #666;
+      }
+
+      .test-btn {
+        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        color: white;
+        padding: 15px 40px;
+        border: none;
+        border-radius: 8px;
+        font-size: 1.1em;
+        font-weight: 600;
+        cursor: pointer;
+        transition: transform 0.2s;
+      }
+
+      .test-btn:hover {
+        transform: translateY(-2px);
+      }
+
+      .test-btn:disabled {
+        opacity: 0.6;
+        cursor: not-allowed;
+      }
+
+      .info-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        gap: 20px;
+        margin-top: 30px;
+      }
+
+      .info-item {
+        background: #f8f9fa;
+        padding: 20px;
+        border-radius: 8px;
+        text-align: center;
+      }
+
+      .info-label {
+        font-size: 0.9em;
+        color: #666;
+        margin-bottom: 8px;
+      }
+
+      .info-value {
+        font-size: 1.3em;
+        font-weight: 600;
+        color: #667eea;
+      }
+
+      .spinner {
+        border: 4px solid #f3f3f3;
+        border-top: 4px solid #667eea;
+        border-radius: 50%;
+        width: 50px;
+        height: 50px;
+        animation: spin 1s linear infinite;
+        margin: 0 auto 20px;
+      }
+
+      @keyframes spin {
+        0% {
+          transform: rotate(0deg);
+        }
+        100% {
+          transform: rotate(360deg);
+        }
+      }
+
+      .response-data {
+        background: #f8f9fa;
+        padding: 20px;
+        border-radius: 8px;
+        margin-top: 20px;
+        max-height: 300px;
+        overflow-y: auto;
+      }
+
+      .response-data pre {
+        margin: 0;
+        white-space: pre-wrap;
+        word-wrap: break-word;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <h1>🔍 API Health Check</h1>
+        <p>Test Sarvam AI API Connection</p>
+        <a href="/" class="nav-link">🏠 Generator</a>
+        <a href="/history" class="nav-link">📜 History</a>
+      </div>
+
+      <div class="card">
+        <div class="status-box checking" id="statusBox">
+          <div class="status-icon">⏳</div>
+          <div class="status-text">Ready to Test</div>
+          <div class="status-details">
+            Click the button below to check API health
+          </div>
+        </div>
+
+        <div style="text-align: center">
+          <button class="test-btn" onclick="checkHealth()" id="testBtn">
+            🚀 Run Health Check
+          </button>
+        </div>
+
+        <div class="info-grid" id="infoGrid" style="display: none">
+          <div class="info-item">
+            <div class="info-label">Response Time</div>
+            <div class="info-value" id="responseTime">-</div>
+          </div>
+          <div class="info-item">
+            <div class="info-label">Status Code</div>
+            <div class="info-value" id="statusCode">-</div>
+          </div>
+          <div class="info-item">
+            <div class="info-label">Tokens Used</div>
+            <div class="info-value" id="tokensUsed">-</div>
+          </div>
+          <div class="info-item">
+            <div class="info-label">API Status</div>
+            <div class="info-value" id="apiStatus">-</div>
+          </div>
+        </div>
+
+        <div class="response-data" id="responseData" style="display: none">
+          <h3 style="margin-bottom: 15px">API Response:</h3>
+          <pre id="responseContent"></pre>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      async function checkHealth() {
+        const statusBox = document.getElementById("statusBox");
+        const testBtn = document.getElementById("testBtn");
+        const infoGrid = document.getElementById("infoGrid");
+        const responseData = document.getElementById("responseData");
+
+        // Reset UI
+        testBtn.disabled = true;
+        statusBox.className = "status-box checking";
+        statusBox.innerHTML = `
+                <div class="spinner"></div>
+                <div class="status-text">Testing API Connection...</div>
+                <div class="status-details">Please wait</div>
+            `;
+        infoGrid.style.display = "none";
+        responseData.style.display = "none";
+
+        const startTime = Date.now();
+
+        try {
+          // Test with actual review generation
+          const formData = new FormData();
+          formData.append("business_name", "Test Business");
+          formData.append("business_type", "shop");
+          formData.append("category", "Test");
+          formData.append("star_rating", "5");
+          formData.append("language", "English");
+          formData.append("use_case", "Customer review");
+
+          const response = await fetch("/generate", {
+            method: "POST",
+            body: formData,
+          });
+
+          const endTime = Date.now();
+          const responseTime = endTime - startTime;
+
+          const data = await response.json();
+
+          if (data.success) {
+            // Success
+            statusBox.className = "status-box healthy";
+            statusBox.innerHTML = `
+                        <div class="status-icon">✅</div>
+                        <div class="status-text">API is Healthy</div>
+                        <div class="status-details">Sarvam AI is responding correctly</div>
+                    `;
+
+            document.getElementById("responseTime").textContent =
+              responseTime + "ms";
+            document.getElementById("statusCode").textContent = response.status;
+            document.getElementById("tokensUsed").textContent =
+              data.token_usage?.total_tokens || "N/A";
+            document.getElementById("apiStatus").textContent = "✓ Online";
+
+            document.getElementById("responseContent").textContent =
+              JSON.stringify(data, null, 2);
+
+            infoGrid.style.display = "grid";
+            responseData.style.display = "block";
+          } else {
+            // API Error
+            statusBox.className = "status-box error";
+            statusBox.innerHTML = `
+                        <div class="status-icon">❌</div>
+                        <div class="status-text">API Error</div>
+                        <div class="status-details">${
+                          data.error || "Unknown error occurred"
+                        }</div>
+                    `;
+
+            document.getElementById("responseContent").textContent =
+              JSON.stringify(data, null, 2);
+            responseData.style.display = "block";
+          }
+        } catch (error) {
+          // Network Error
+          statusBox.className = "status-box error";
+          statusBox.innerHTML = `
+                    <div class="status-icon">❌</div>
+                    <div class="status-text">Connection Failed</div>
+                    <div class="status-details">Could not reach the API: ${error.message}</div>
+                `;
+
+          document.getElementById("responseContent").textContent =
+            error.message;
+          responseData.style.display = "block";
+        } finally {
+          testBtn.disabled = false;
+        }
+      }
+    </script>
+  </body>
+</html>
